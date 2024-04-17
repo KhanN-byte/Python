@@ -6,11 +6,11 @@ Simple Constructor Code
 
 
 class calc:
-
+  
   def __init__(self, x, y):
     self.x = x
     self.y = y
-    print("I have called init constructor")
+    print("I have called the init constructor")
 
   def add(self, x, y):
     return x + y
