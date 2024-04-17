@@ -4,9 +4,8 @@ This is a simple program that will print out a message of your choice to the scr
 Simple Constructor Code 
 '''
 
-
 class calc:
-  
+
   def __init__(self, x, y):
     self.x = x
     self.y = y
