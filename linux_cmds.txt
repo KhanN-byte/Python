@@ -1,0 +1,4 @@
+export VISUAL=vi
+crontab -e #edit the cronjob
+crontab -l #tells you all the cron processes
+
