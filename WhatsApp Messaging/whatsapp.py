@@ -32,7 +32,7 @@ def store_messages():
     callFetchMsgs = fetch_incoming_messages()
     getMsg = []  # Initialize an empty list to store messages
     for msg in callFetchMsgs:
-        if msg.get("from") == 'whatsapp:+17205891880':
+        if msg.get("from") == 'whatsapp:+1xxx-xxx-xxxx':
             getMsg.append(msg.get('body'))
     return getMsg
 
