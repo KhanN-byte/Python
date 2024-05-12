@@ -1,5 +1,5 @@
 import openai
-openai.api_key = "sk-proj-txCCJcED5sknmETayYuLT3BlbkFJG59jP08K3OS5w3kuB1h3"
+openai.api_key = "your-own-api-key-here"
 
 prompt = "Hello, my name is John and I am a software engineer."
 model = "gpt-3.5-turbo"
