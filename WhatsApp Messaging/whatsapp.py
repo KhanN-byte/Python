@@ -2,12 +2,12 @@ import requests
 import time
 
 # Your Twilio Account SID and Auth Token
-account_sid = 'AC4ac5b09b4664cc6376f21e0c77a7bcea'
-auth_token = 'e36d539c7cf59057e8edb8a6e7015b31'
+account_sid = '<account_sid_here>'
+auth_token = '<auth_token_here>'
 
 # Twilio phone number
 from_number = 'whatsapp:+14155238886'
-to_number = 'whatsapp:+17205891880' # your recipient's phone number
+to_number = 'whatsapp:+xxx-xxx-xxxx' # your recipient's phone number
 
 # Function to send a WhatsApp message
 def send_whatsapp_message(body):
@@ -32,7 +32,7 @@ def store_messages():
     callFetchMsgs = fetch_incoming_messages()
     getMsg = []  # Initialize an empty list to store messages
     for msg in callFetchMsgs:
-        if msg.get("from") == 'whatsapp:+17205891880':
+        if msg.get("from") == 'whatsapp:+1xxx-xxx-xxxx':
             getMsg.append(msg.get('body'))
     return getMsg
 
