@@ -31,6 +31,7 @@ def print_news(articles):
         print()
 
 def main():
+
     api_key = '<your_api_key>'
     # Get your API key from newsapi.org
 
