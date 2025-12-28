@@ -1,4 +1,24 @@
 export VISUAL=vi
 crontab -e #edit the cronjob
 crontab -l #tells you all the cron processes
-
+ls            # list files
+ls -la        # detailed list (hidden files too)
+cd dir        # change directory
+pwd           # show current path
+mkdir dir     # create directory
+mkdir -p a/b  # create nested directories
+rm file       # delete file
+rm -r dir     # delete directory
+rm -rf dir    # force delete (dangerous)
+cp a b        # copy file
+cp -r a b     # copy directory
+mv a b        # move/rename
+stat file     # file details
+tree          # directory tree view
+Copy code
+find . -name file.txt           # find file
+grep "text" file.txt            # search text
+grep -r "text" .                # recursive search
+grep -i "text" file.txt         # case-insensitive
+which python                    # find executable path
+whereis python                  # binary + man path
