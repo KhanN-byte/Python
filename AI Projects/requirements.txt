@@ -1,0 +1,11 @@
+#Core
+deepface==0.0.79
+opencv-python>=4.8
+pandas>=2.0
+
+# TensorFlow + Keras compatibility
+tensorflow>=2.20.0
+tf-keras
+
+# Prevent LibreSSL / urllib3 warning on macOS system Python
+urllib3<2
